@@ -242,7 +242,7 @@ class FocusedMenuDetails extends StatelessWidget {
                       BoxDecoration(
                           color: Colors.grey.shade200,
                           borderRadius:
-                              const BorderRadius.all(Radius.circular(5.0)),
+                              const BorderRadius.all(Radius.circular(2)),
                           boxShadow: [
                             const BoxShadow(
                                 color: Colors.black38,
@@ -250,7 +250,7 @@ class FocusedMenuDetails extends StatelessWidget {
                                 spreadRadius: 1)
                           ]),
                   child: ClipRRect(
-                    borderRadius: const BorderRadius.all(Radius.circular(5.0)),
+                    borderRadius: const BorderRadius.all(Radius.circular(2)),
                     child: ListView.builder(
                       itemCount: menuItems.length,
                       padding: EdgeInsets.zero,
